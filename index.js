@@ -17,6 +17,7 @@ const corsOptions = {
     credentials: true
 }
 
+app.get("/", () => "Server is running");
 
 //database connection
 mongoose.set('strictQuery', false);
